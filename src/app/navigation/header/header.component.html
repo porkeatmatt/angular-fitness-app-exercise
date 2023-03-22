@@ -1,0 +1,14 @@
+<mat-toolbar color="primary">
+    <div>
+        <button mat-icon-button (click)="onToggleSideNav()">
+            <mat-icon>menu</mat-icon>
+        </button>
+    </div>
+    <div><a routerLink="/">Logo</a></div>
+    <div class="flex w-full justify-end gap-3">
+        <a routerLink="/signup">Signup</a>
+        <a routerLink="/login">Login</a>
+        <a routerLink="/training">Training</a>
+        <a>Logout</a>
+    </div>
+</mat-toolbar>

@@ -1,0 +1,27 @@
+<div class=" py-8 flex justify-center">
+    <mat-card class="basis-full md:basis-96 text-center border-4 border-black" >
+        <mat-card-title>Time to start a workout!</mat-card-title>
+        <mat-card-content>
+            <mat-form-field appearance="fill">
+                <mat-label>Favorite Workout</mat-label>
+                <mat-select>
+                  <mat-option value="crunches">
+                    Crunches
+                  </mat-option>
+                  <mat-option value="touch-toes">
+                    Touch Toes 
+                  </mat-option>
+                  <mat-option value="side-lunges">
+                    Side Lunges  
+                  </mat-option>
+                  <mat-option value="burpees">
+                    Burpees 
+                  </mat-option>
+                </mat-select>
+              </mat-form-field> 
+        </mat-card-content>
+        <mat-card-actions>
+            <button type='submit' mat- (click)="onStartTraining()">Start</button>
+        </mat-card-actions>
+    </mat-card>
+</div>
